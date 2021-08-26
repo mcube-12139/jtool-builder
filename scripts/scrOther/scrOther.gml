@@ -423,6 +423,9 @@ function game_build() {
     file_copy(binaryPath + "runner.exe", gamePath + global.gameName + ".exe");
     file_copy(binaryPath + "data.win", gamePath + "data.win");
     file_copy(binaryPath + "options.ini", gamePath + "options.ini");
+    file_copy(binaryPath + "D3DX9_43.dll", gamePath + "D3DX9_43.dll");
+    file_copy(binaryPath + "GMFile.dll", gamePath + "GMFile.dll");
+    file_copy(binaryPath + "GMIni.dll", gamePath + "GMIni.dll");
     
     // create resource directory
     directory_create(gamePath + "resource");
