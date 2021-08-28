@@ -23,7 +23,7 @@ function ListView(_parent, _x, _y, _width, _height, _lineHeight) constructor {
     
     static draw = function () {
         if (!surface_exists(surface)) {
-            surface = surface_create(_width, _height);
+            surface = surface_create(width, height);
         }
         
         surface_set_target(surface);
